@@ -36,8 +36,8 @@ export default function Home() {
 
 
   return (
-      <main className="flex min-h-screen flex-col items-center justify-center p-12 bg-gray-50">
-          <div className="z-20 w-full max-w-5xl p-8 bg-white shadow-xl rounded-xl">
+      <main className="flex min-h-screen flex-col items-center justify-center p-12 bg-slate-800">
+          <div className="z-10 w-full max-w-5xl p-8 bg-white shadow-xl rounded-xl">
               <div className="grid lg:grid-cols-2 gap-12">
                   <div className="flex justify-center items-center">
                       {image && (
