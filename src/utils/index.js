@@ -76,7 +76,7 @@ export default class Utils {
             return arr[randIndex];
         }
 
-        let sentence = '';
+        let sentence;
 
         if (Math.random() > 0.5) {
             const charDesc = getRandElem(descriptions.characters);
